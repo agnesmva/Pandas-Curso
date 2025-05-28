@@ -1,0 +1,16 @@
+Na aula de hoje consegui entender a diferença entre LISTAS, SERIES e DATAFRAMES
+LISTAS - é uma estrutura de dados própria do python que podem ser acessadas por um index
+       - não possuem rótulos
+       - possuem métodos próprio como: append, remove, reverse, etc.
+       - é possível fazer Slice [:n] -> n sendo o index que deseja acessar
+
+SERIES - é um estrutura do Pandas que importa a estrutura de "chave": "valor"
+       - Unidimensional ( em linha )
+       - Uma combinação entre listas e dicionario
+       - indexes podem ser atribuidos
+       - ex: serie = pd.Series([10, 20, 30], index=['a', 'b', 'c'])
+
+DATAFRAMES - é um conjunto de SERIES no qual é composto por linhas e colunas
+           - bidimensionais (colunas e linhas - forma uma tabela)
+           - linhas == índices 
+           - colunas == títulos
