@@ -1,0 +1,13 @@
+Principais tópicos aprendidos:
+- existem três principais tipos de dados que podem ser manipulados usando método read do pandas
+são eles:
+read_csv("caminho do arquivo")
+read_parquet("caminho do arquivo")
+read_excel("caminho do arquivo")
+às vezes é necessário instalar bibliotecas para fazer o parse de arquivos como o excel ou parquet
+
+-clipboard
+método que pega uma tabela copiada no seu contexto
+
+-html 
+é possível extrair tabelas diretos de sites web, sem necessáriamente fazer webscrapping com beautifulsoap
